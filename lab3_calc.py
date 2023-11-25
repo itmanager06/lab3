@@ -1,6 +1,6 @@
-def sum(val1, val2):
+def suma(val1, val2):
     return val1 + val2
 
 
-result = sum(3, 2)
+result = suma(3, 2)
 print(result)
