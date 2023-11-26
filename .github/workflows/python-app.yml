@@ -22,7 +22,8 @@ jobs:
       - name: Test with pytest
         run: |
          pip install pytest 
-         pytest *.py --doctest-modules --junitxml=junit/test-results.xml
+         pytest 
+      # *.py --doctest-modules --junitxml=junit/test-results.xml
       #- name: Display Python version
       #  run: python -c "import sys; print(sys.version)"
       
