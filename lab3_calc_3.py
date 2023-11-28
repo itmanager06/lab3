@@ -5,5 +5,5 @@ def func(a, b):
     return a + b
 
 def test_answer():
-   assert func(8) == 8
+   assert func(2, 6) == 8
   
