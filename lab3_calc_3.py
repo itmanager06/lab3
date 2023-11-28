@@ -7,5 +7,5 @@ def func(a, b):
 func(a,b)
 
 def test_answer():
-   assert func(a, b)
+   assert func(a, b) == 8
   
