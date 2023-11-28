@@ -12,12 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get repository code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: For set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-      - name: Instull Pip
+      - name: Install Pip
         run: pip install --upgrade pip
       - name: Install pytest
         run: pip install pytest
