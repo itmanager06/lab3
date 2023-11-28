@@ -22,4 +22,4 @@ jobs:
       - name: Install pytest
         run: pip install pytest
       - name: Test application
-        run: pytest -s lab3_calc_3.py
+        run: pytest lab3/*.py
