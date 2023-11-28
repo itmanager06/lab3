@@ -25,4 +25,4 @@ jobs:
         pipenv install pytest
     - name: Test with pytest
       run: |
-       pytest -s lab3_calc_3.py 
+       pytest lab3_calc_3.py 
