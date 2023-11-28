@@ -1,10 +1,11 @@
-# a = 2
-# b = 6
-# print(a + b)
+a = 2
+b = 6
 
 def func(a, b):
-    return func
+    print(a + b)
+
+func(a,b)
 
 def test_answer():
-    assert func(8) == 8
+   assert func()
   
